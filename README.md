@@ -40,12 +40,12 @@ parity.getInfo('IN')
 ```
 ### Error behaviour
 
-All functions accept an optional parameter **throwError** which is **false** by default. If the alpha2 country code provided as input is invalid or if data is not available, then all functions except getRate and getPrice will return **undefined**, while getPrice will return the provided USD value itself and getRate will return 1. To throw an error instead in such cases, pass **throwError** with value **true**.
+All functions accept an optional parameter **throwError** which is **false** by default. If the alpha2 country code provided as input is invalid or unavailable, then all functions except getRate and getPrice will return **undefined**, while getPrice will return the provided USD value itself and getRate will return 1. 
+
+To throw an error instead in such cases, pass **throwError** with value **true**.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 ## To Do
 
