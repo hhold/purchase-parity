@@ -1,0 +1,15 @@
+{
+  "name": "purchase-parity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hitesh Nair <hellohitesh123@gmail.com>",
+  "license": "ISC",
+  "description": ""
+}
